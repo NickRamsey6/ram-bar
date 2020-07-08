@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import TopNav from './components/TopNav';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import AboutUs from './components/AboutUs/AboutUs';
 
 class App extends Component {
 
@@ -18,6 +19,7 @@ class App extends Component {
           <TopNav />
             <div className="content-area">
               <Route exact path='/' component = {Home} />
+              <Route path='/about-us' component={AboutUs} />
             </div>
             <Footer />
         </div>
