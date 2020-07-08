@@ -34,11 +34,6 @@ import {
         altText: 'Ram Bar Sign',
         caption: 'slide4'
     },
-    {
-        src: about5,
-        altText: 'Ram Bar Mat',
-        caption: 'slide5'
-    },
   ];
 
   const SiteCarousel = (props) => {
@@ -70,7 +65,7 @@ import {
           key={item.src}
         >
           <img src={item.src} alt={item.altText} className={"carouselImage"} />
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+
         </CarouselItem>
       );
     });

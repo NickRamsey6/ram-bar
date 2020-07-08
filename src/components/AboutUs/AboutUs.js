@@ -2,6 +2,7 @@ import React from 'react';
 import './AboutUs.css';
 import SiteCarousel from '../SiteCarousel';
 
+
 class AboutUs extends React.Component{
     constructor(props){
         super(props);
@@ -9,7 +10,7 @@ class AboutUs extends React.Component{
 
     render(){
         return(
-            <div>
+            <div className='container'>
                 <h1>About Ram Bar</h1>
                 <SiteCarousel />
                 <p>Lorem Ipsum</p>
