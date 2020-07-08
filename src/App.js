@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import TopNav from './components/TopNav';
 import Footer from './components/Footer';
+import Home from './components/Home';
 
 class App extends Component {
 
@@ -16,7 +17,7 @@ class App extends Component {
         <div className="App">
           <TopNav />
             <div className="content-area">
-              <p>Home page Here!!!</p>
+              <Route exact path='/' component = {Home} />
             </div>
             <Footer />
         </div>
