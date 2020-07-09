@@ -19,6 +19,7 @@ class Menu extends React.Component {
                     <CardImg top width="100%" src = {titosTea} alt = "tito's tea" />
                     <CardBody>
                         <CardTitle>Tito's Tea</CardTitle>
+                        <hr />
                         <CardText>3oz Tea, 3oz Lemonade, 1.5oz Tito's Vodka</CardText>
                     </CardBody>
                 </Card>
@@ -26,6 +27,7 @@ class Menu extends React.Component {
                     <CardImg top width="100%" src = {oldFashioned} alt = "old fashioned" />
                     <CardBody>
                         <CardTitle>Old Fashioned</CardTitle>
+                        <hr />
                         <CardText>4oz Bourbon, 2oz Sweet Vermouth, 5 drops Woodord Reserves Bitters, 2 Marashino Cheeries</CardText>
                     </CardBody>
                 </Card>
@@ -33,6 +35,7 @@ class Menu extends React.Component {
                     <CardImg top width="100%" src = {greyhound} alt = "greyhound" />
                     <CardBody>
                         <CardTitle>The Greyhound</CardTitle>
+                        <hr />
                         <CardText>1-2oz Vodka, grapefruit juice</CardText>
                     </CardBody>
                 </Card>
