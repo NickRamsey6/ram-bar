@@ -25,22 +25,22 @@ class TopNav extends React.Component {
 
         return(<div>
             <Navbar color="light" light expand="md">
-                <NavbarBrand href='/'>Ram Bar</NavbarBrand>
-                    <Nav className="ml-auto" navbar>
+                <NavbarBrand style={{fontWeight: "bold"}} href='/'>Ram Bar</NavbarBrand>
+                    <Nav className="ml-auto" navbar >
                         <NavItem>
-                            <NavLink href='/'>Home</NavLink>
+                            <NavLink style={{color: 'black', fontWeight: "bold"}} href='/'>Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href='/about-us'>About Us</NavLink>
+                            <NavLink style={{color: 'black', fontWeight: "bold"}} href='/about-us'>About Us</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href='/menu'>Menu</NavLink>
+                            <NavLink style={{color: 'black', fontWeight: "bold"}} href='/menu'>Menu</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href='/games'>Games</NavLink>
+                            <NavLink style={{color: 'black', fontWeight: "bold"}} href='/games'>Games</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href='/partners'>Partners</NavLink>
+                            <NavLink style={{color: 'black', fontWeight: "bold"}} href='/partners'>Partners</NavLink>
                         </NavItem>
                     </Nav>
             </Navbar>
