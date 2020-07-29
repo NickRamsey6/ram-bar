@@ -28,8 +28,8 @@ class HomeIcons extends React.Component {
               <i class="fas fa-heart fa-3x mb-2"></i>
               <h3>Family</h3>
               <p>
-                All are welcome every summer weekend, the only bar in town that
-                doesn't close!
+                We're parting every summer weekend. All are welcome and all are
+                treated like a member of the Ram Fam!
               </p>
             </Col>
           </Row>
