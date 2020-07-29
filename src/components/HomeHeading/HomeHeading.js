@@ -1,7 +1,6 @@
 import React from 'react';
 import './HomeHeading.css';
 import { Container, Row, Col } from 'reactstrap';
-import pic from '../../assets/images/blur.jpg';
 
 class HomeHeading extends React.Component {
   render() {
