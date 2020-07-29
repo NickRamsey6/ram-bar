@@ -11,17 +11,26 @@ class HomeIcons extends React.Component {
             <Col className="col-md-4 mb-4 text-center">
               <i class="fa fa-glass fa-3x mb-2"></i>
               <h3>Drinks</h3>
-              <p>lorem ajhfals elsjadfhalsd</p>
+              <p>
+                A meticulously curated menu of cocktails, beers and wines. Be
+                sure to ask Mary for the drink of the day!
+              </p>
             </Col>
             <Col className="col-md-4 mb-4 text-center">
               <i class="fas fa-bowling-ball fa-3x mb-2"></i>
               <h3>Games</h3>
-              <p>lorem ajhfals elsjadfhalsd</p>
+              <p>
+                Classic bar games like Darts and Cornhole, paired with new spins
+                on old favorites like Backyard Bowling and Dart Poker.
+              </p>
             </Col>
             <Col className="col-md-4 mb-4 text-center">
               <i class="fas fa-heart fa-3x mb-2"></i>
               <h3>Family</h3>
-              <p>lorem ajhfals elsjadfhalsd</p>
+              <p>
+                All are welcome every summer weekend, the only bar in town that
+                doesn't close!
+              </p>
             </Col>
           </Row>
         </Container>
