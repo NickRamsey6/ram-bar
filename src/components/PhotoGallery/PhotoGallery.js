@@ -24,8 +24,11 @@ class PhotoGallery extends React.Component {
   }
 
   toggle() {
+    // console.log(this);
     this.setState({
       isOpen: !this.state.isOpen,
+
+      //   photoIndex: images.indexOf(this.src),
     });
   }
 
@@ -37,22 +40,46 @@ class PhotoGallery extends React.Component {
         <p className="text-center">Good times @RamBar!</p>
         <Row className="mb-4">
           <Col className="md-4">
-            <img className="img-fluid" onClick={this.toggle} src={drinks} />
+            <img
+              className="img-fluid"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
+              src={drinks}
+            />
           </Col>
           <Col className="md-4">
-            <img className="img-fluid" onClick={this.toggle} src={about2} />
+            <img
+              className="img-fluid"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 1 })}
+              src={about2}
+            />
           </Col>
           <Col className="md-4">
-            <img className="img-fluid" onClick={this.toggle} src={about3} />
+            <img
+              className="img-fluid"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
+              src={about3}
+            />
           </Col>
           <Col className="md-4">
-            <img className="img-fluid" onClick={this.toggle} src={darts} />
+            <img
+              className="img-fluid"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 3 })}
+              src={darts}
+            />
           </Col>
           <Col className="md-4">
-            <img className="img-fluid" onClick={this.toggle} src={tv} />
+            <img
+              className="img-fluid"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 4 })}
+              src={tv}
+            />
           </Col>
           <Col className="md-4">
-            <img className="img-fluid" onClick={this.toggle} src={about5} />
+            <img
+              className="img-fluid"
+              onClick={() => this.setState({ isOpen: true, photoIndex: 5 })}
+              src={about5}
+            />
             {isOpen && (
               <Lightbox
                 mainSrc={images[photoIndex]}
