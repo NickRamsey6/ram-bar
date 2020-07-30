@@ -44,6 +44,7 @@ class PhotoGallery extends React.Component {
               className="img-fluid"
               onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
               src={drinks}
+              //   style={{ height: '560px', width: '560px' }}
             />
           </Col>
           <Col className="md-4">
@@ -51,6 +52,7 @@ class PhotoGallery extends React.Component {
               className="img-fluid"
               onClick={() => this.setState({ isOpen: true, photoIndex: 1 })}
               src={about2}
+              //   style={{ height: '560px', width: '560px' }}
             />
           </Col>
           <Col className="md-4">
@@ -58,13 +60,17 @@ class PhotoGallery extends React.Component {
               className="img-fluid"
               onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
               src={about3}
+              //   style={{ height: '560px', width: '560px' }}
             />
           </Col>
+        </Row>
+        <Row className="mb-4">
           <Col className="md-4">
             <img
               className="img-fluid"
               onClick={() => this.setState({ isOpen: true, photoIndex: 3 })}
               src={darts}
+              //   style={{ height: '560px', width: '560px' }}
             />
           </Col>
           <Col className="md-4">
@@ -72,6 +78,7 @@ class PhotoGallery extends React.Component {
               className="img-fluid"
               onClick={() => this.setState({ isOpen: true, photoIndex: 4 })}
               src={tv}
+              //   style={{ height: '560px', width: '560px' }}
             />
           </Col>
           <Col className="md-4">
@@ -79,7 +86,9 @@ class PhotoGallery extends React.Component {
               className="img-fluid"
               onClick={() => this.setState({ isOpen: true, photoIndex: 5 })}
               src={about5}
+              //   style={{ height: '560px', width: '560px' }}
             />
+
             {isOpen && (
               <Lightbox
                 mainSrc={images[photoIndex]}
