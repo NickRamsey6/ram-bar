@@ -4,6 +4,7 @@ import homeImage from '../../assets/images/RamBar.png';
 import HomeIcons from '../HomeIcons';
 import HomeHeading from '../HomeHeading';
 import PhotoGallery from '../PhotoGallery/PhotoGallery';
+import HomePhoto from '../HomePhoto/HomePhoto';
 
 class Home extends React.Component {
   constructor(props) {
@@ -13,11 +14,12 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <img
+        <HomePhoto />
+        {/* <img
           className="homeBackground"
           src={homeImage}
           alt="home page background"
-        />
+        /> */}
         <h2>The World's Greatest Backyard Bar</h2>
         <HomeIcons />
         <HomeHeading />
