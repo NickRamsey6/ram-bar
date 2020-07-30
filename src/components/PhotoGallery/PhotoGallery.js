@@ -39,7 +39,7 @@ class PhotoGallery extends React.Component {
         <h1 className="text-center">Photo Gallery</h1>
         <p className="text-center">Good times @RamBar!</p>
         <Row className="mb-4">
-          <Col className="md-4">
+          <Col md="4">
             <img
               className="img-fluid"
               onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
@@ -47,7 +47,7 @@ class PhotoGallery extends React.Component {
               style={{ height: '350px', width: '600px' }}
             />
           </Col>
-          <Col className="md-4">
+          <Col md="4">
             <img
               className="img-fluid"
               onClick={() => this.setState({ isOpen: true, photoIndex: 1 })}
@@ -55,7 +55,7 @@ class PhotoGallery extends React.Component {
               style={{ height: '350px', width: '600px' }}
             />
           </Col>
-          <Col className="md-4">
+          <Col md="4">
             <img
               className="img-fluid"
               onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}
@@ -65,7 +65,7 @@ class PhotoGallery extends React.Component {
           </Col>
         </Row>
         <Row className="mb-4">
-          <Col className="md-4">
+          <Col md="4">
             <img
               className="img-fluid"
               onClick={() => this.setState({ isOpen: true, photoIndex: 3 })}
@@ -73,7 +73,7 @@ class PhotoGallery extends React.Component {
               style={{ height: '350px', width: '600px' }}
             />
           </Col>
-          <Col className="md-4">
+          <Col md="4">
             <img
               className="img-fluid"
               onClick={() => this.setState({ isOpen: true, photoIndex: 4 })}
@@ -81,7 +81,7 @@ class PhotoGallery extends React.Component {
               style={{ height: '350px', width: '600px' }}
             />
           </Col>
-          <Col className="md-4">
+          <Col md="4">
             <img
               className="img-fluid"
               onClick={() => this.setState({ isOpen: true, photoIndex: 5 })}
