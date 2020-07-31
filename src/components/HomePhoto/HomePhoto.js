@@ -19,6 +19,9 @@ class HomePhoto extends React.Component {
             backgroundAttachment: 'fixed',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
+            display: 'flex',
+            alignItems: 'center',
+            height: '80vh',
           }}
         >
           <Container fluid>
@@ -31,12 +34,13 @@ class HomePhoto extends React.Component {
             //     backgroundSize: 'cover',
             //   }}
             >
-              <Col md={8} className="m-auto text-center">
+              <Col md={8} className="m-auto">
                 <h1
                   style={{
                     fontFamily: 'Engravers MT',
                     fontSize: '100px',
                     color: 'white',
+                    fontWeight: 'bold',
                   }}
                 >
                   Ram Bar
@@ -57,6 +61,7 @@ class HomePhoto extends React.Component {
                       padding: '0 10px',
                       fontFamily: 'Freestyle Script',
                       fontSize: '45px',
+                      fontWeight: 'bold',
                     }}
                   >
                     Est. 2020
@@ -67,6 +72,7 @@ class HomePhoto extends React.Component {
                     fontFamily: 'Freestyle Script',
                     color: 'white',
                     fontSize: '75px',
+                    fontWeight: 'bold',
                   }}
                 >
                   Proudly Serving Whatever You Bring!
