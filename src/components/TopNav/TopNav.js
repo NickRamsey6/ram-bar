@@ -34,7 +34,7 @@ class TopNav extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="dark" dark expand="md">
+        <Navbar color="dark" dark expand="md" fixed="top">
           <NavbarBrand style={{ fontWeight: 'bold' }} href="/">
             Ram Bar
           </NavbarBrand>
